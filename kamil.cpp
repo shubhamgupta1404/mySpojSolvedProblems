@@ -1,0 +1,11 @@
+main(t,a,s){
+	t=10;
+	a=1;
+	while(s=getchar()!=-1){
+		if(c=='\n'){
+			printf("%d\n",a);
+			a=1;
+		}
+		if(c=='T'||c=='D'||c=='L'||c=='F')a*=2;
+	}
+}
